@@ -1,0 +1,21 @@
+/* Card Container Constraints for Responsive Sizing */
+.chart-container {
+  position: relative;
+  width: 100%;
+  min-height: 280px;
+  max-height: 320px;
+}
+
+.fs-7 {
+  font-size: 0.85rem;
+}
+
+/* Card Hover Elevation Effect */
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1) !important;
+}
